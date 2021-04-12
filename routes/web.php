@@ -20,4 +20,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+<<<<<<< HEAD
 Route::get('/phongban','PhongbanController@index');
+=======
+Route::get('/nhansu','NhansuController@index');
+>>>>>>> nhansu
